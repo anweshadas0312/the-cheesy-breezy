@@ -22,11 +22,12 @@
   margin-top: 50px;
 }
 
-
 .aboutBottom p {
   width: 1200px;
   margin-top: 30px;
+  text-align: center;
 }
+
 
 .about .aboutBottom h1 {
   font-weight: 400;
@@ -36,4 +37,14 @@
   display: flex;
   justify-content: center;
   transform: translateY(-40px);
+}
+
+@media only screen and (max-width: 650px) {
+  .aboutBottom p {
+    width: 380px;
+    /* height: 55%; */
+    
+    margin-top: 40px;
+    padding: 0px 10px 0px 10px;
+  }
 }
